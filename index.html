@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>Tableau de bord</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<p><img src="img/logo.png" alt="logo"/></p>
+		<a href="#2458" class="brand">
+			<span class="text">Bienvenue </br>
+				 Nebra Alexender</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#tab">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Tableau de bord</span>
+				</a>
+			</li>
+			<li>
+				<a href="#hist">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Historique</span>
+				</a>
+			</li>
+			<li>
+				<a href="#ana">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Analyse</span>
+				</a>
+			</li>
+			<li>
+				<a href="#message">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Message</span>
+				</a>
+			</li>
+			<li>
+				<a href="#paie">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Paiements éffectués</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#carte">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Carte Bancaire</span>
+				</a>
+			</li>
+			<li>
+				<a href="index25.html" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Déconnexion</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#252--" class="nav-link">Menu</a>
+			<form action="#86--">
+				<div class="form-input">
+					<input type="search" placeholder="Recherche">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#message" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="img/amazon.png" class="profile">
+				<img src="img/nebra.jpg" alt="nebraa"/>
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1 id="tab">Tableau de bord</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#01">Tableau de bord</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#012">Accueil</a>
+						</li>
+					</ul>
+					<div id="messagep">
+						<div id="message">Message</div>
+						<marquee>ALERTE: Ce compte est bloqué.</marquee>
+					</div>
+				</div>
+				<a href="#0123" class="btn-download">
+					<i class='bx bxs-cloud-download' ></i>
+					<span class="text">voir le PDF</span>
+				</a>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>1020</h3>
+						<p id="paie">paiements éffectués</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>280000000€</h3>
+						<p>épargne</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h3>25000000€</h3>
+						<p>Solde</p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3 id="hist">historique</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Comptes</th>
+								<th>Date</th>
+								<th>Statut</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="img/amazon.png">
+									<p>Amazon</p>
+								</td>
+								<td>11-10-2021</td>
+								<td><span class="status completed">succès</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/gaz.jpg">
+									<p>Gaz Professionnel</p>
+								</td>
+								<td>01-12-2021</td>
+								<td><span class="status pending">échec</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/merlin.png">
+									<p>John Doe</p>
+								</td>
+								<td>10-02-2022</td>
+								<td><span class="status process">remboursé</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/gaz.jpg">
+									<p>gaz Professionnel</p>
+								</td>
+								<td>01-05-2022</td>
+								<td><span class="status pending">échec</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/merlin.png">
+									<p>Leroy Merlin</p>
+								</td>
+								<td>01-08-2022</td>
+								<td><span class="status completed">succès</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<p id="carte"><img src="img/macarte.png" alt="carte_bancaire" height="300px" width="500px"/></p>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<h3 id="ana">Analyse</h3>
+						<i class='bx bx-plus' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<ul class="todo-list">
+						<li class="completed">
+							<p>succès</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="completed">
+							<p>Total d'épargne</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="not-completed">
+							<p>échec de transation</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="completed">
+							<p>Remboursement</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="not-completed">
+							<p>Autres</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
